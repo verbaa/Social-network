@@ -19,7 +19,7 @@ const App = (props) => {
                 <div className="col-9">
                     <div className=''>
                         <Route path='/dialogs'
-                               render={ () => <Dialogs state={props.state.dialogsPage} /> }/>
+                               render={ () => <Dialogs store={props.store} /> }/>
 
                         <Route path='/profile'
                                render={ () => <Profile
