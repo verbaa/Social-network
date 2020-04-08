@@ -1,0 +1,21 @@
+.header {
+    background: linear-gradient(to right, #ff29d7, #079daa);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: 0 1px 7.5px rgba(0, 0, 0, 0.37);
+}
+
+.header img {
+    height: 52px;
+    margin: 10px;
+    width: 85px;
+}
+.header__logo{
+    display: block;
+    background: rgba(0, 0, 0, 0.24);
+    width: 251px;
+}
+

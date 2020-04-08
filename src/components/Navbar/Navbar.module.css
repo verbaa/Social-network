@@ -1,0 +1,18 @@
+.nav {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    background: #fff;
+    padding: 0 0 0 0;
+}
+.item{
+    padding: 6px 0 6px 10px;
+}
+.item a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+.item a.activeLink {
+    color: black;
+}
