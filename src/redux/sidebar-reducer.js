@@ -1,3 +1,9 @@
-const profileReducer = (state, action ) => {
-    return state
+let initialState = {
+    sidebar: {}
 }
+
+const sidebarReducer = (state = initialState, action ) => {
+    return state
+};
+
+export default sidebarReducer;
